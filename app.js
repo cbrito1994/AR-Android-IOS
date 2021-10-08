@@ -1,8 +1,5 @@
-import * as THREE from '/three';
-import { OrbitControls } from '/three/examples/jsm/controls/OrbitControls.js'
-
-const app = express();
-const port = 3001;
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 
 let scene, camera, renderer;
 
