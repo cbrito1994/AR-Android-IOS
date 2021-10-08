@@ -1,0 +1,23 @@
+{
+  "name": "ar-android-ios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbrito1994/AR-Android-IOS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbrito1994/AR-Android-IOS/issues"
+  },
+  "homepage": "https://github.com/cbrito1994/AR-Android-IOS#readme",
+  "dependencies": {
+    "three": "^0.133.1"
+  }
+}
