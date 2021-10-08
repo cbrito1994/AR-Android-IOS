@@ -1,5 +1,5 @@
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+// import * as THREE from './node_modules/three';
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 
 let scene, camera, renderer;
 
@@ -7,6 +7,7 @@ const init = () => {
     // const container = document.createElement('div');
     // document.body.appendChild(container);
     scene = new THREE.Scene();
+    console.log(scene)
     camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.01, 40);
     renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setPixelRatio(window.devicePixelRatio);
