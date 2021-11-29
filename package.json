@@ -19,5 +19,8 @@
   "homepage": "https://github.com/cbrito1994/AR-Android-IOS#readme",
   "dependencies": {
     "three": "^0.133.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.134.0"
   }
 }
