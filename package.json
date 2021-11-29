@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +18,7 @@
   },
   "homepage": "https://github.com/cbrito1994/AR-Android-IOS#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "three": "^0.133.1"
-  },
-  "devDependencies": {
-    "@types/three": "^0.134.0"
   }
 }
