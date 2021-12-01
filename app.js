@@ -7,4 +7,4 @@ app.use('/assets', express.static(path.join(__dirname, 'assets')))
 app.use('/build/', express.static(path.join(__dirname, 'node_modules/three/build')))
 app.use('/jsm/', express.static(path.join(__dirname, 'node_modules/three/examples/jsm')))
 
-app.listen(3000, () => console.log('Visit http://localhost:3000'))
+app.listen(3000, () => console.log('Visit http://localhost:8080'))

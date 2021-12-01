@@ -10,13 +10,15 @@
           "imports": {
             "three": "./build/three.module.js",
             "three/examples/jsm/controls/OrbitControls":"./jsm/controls/OrbitControls.js",
-            "three/examples/jsm/exporters/USDZExporter": "./jsm/exporters/USDZExporter.js"
+            "three/examples/jsm/loaders/GLTFLoader": "./jsm/loaders/GLTFLoader.js",
+            "three/examples/jsm/exporters/USDZExporter": "./jsm/exporters/USDZExporter.js",
+            "three/examples/jsm/webxr/ARButton": "./jsm/webxr/ARButton.js"
           }
         }
     </script>
 </head>
 <body>
-    <a rel="ar" href="../assets/cubeTest.usdz">
+    <a id="link" rel="ar">
         <img src="../assets/ARicon.webp" alt="arImage" width="100">
     </a>
     <script type="module" src="client.js"></script>
